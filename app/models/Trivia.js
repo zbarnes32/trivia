@@ -9,9 +9,9 @@ export class Trivia {
     get triviaHTMLTemplate(){
         return `
         <div>
-            <div class="card w-100">
-              <div class="card-body">
-                <h5 class="card-title">${this.question}</h5>
+            <div class="questions shadow">
+              <div class="">
+                <p class="fs-1 fw-bold">${this.question}</p>
                 <div class="d-flex justify-content-around">
                   <button>True</button>
                   <button>False</button>
